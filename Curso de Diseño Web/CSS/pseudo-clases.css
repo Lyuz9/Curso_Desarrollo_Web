@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 50px;
+
+    &:hover {
+        background: red;
+        color: #fff;
+    }
+
+    &:active {
+        background: #000;
+    }
+
+    &:visited {
+        color: #858585;
+    }
+}
+
+.articulos {
+    p:hover {
+        background: #414141;
+        color: #fff;
+    }
+}
+
+.cajas {
+    div {
+        background: lightcyan;
+        height: 50px;
+        margin-bottom: 5px;
+
+        &:first-child {
+            background: red;
+            color: #fff;
+        }
+
+        &:nth-child(2) {
+            background: lightblue;
+        }
+
+        &:last-child {
+            background: lime;
+            color: #fff;
+        }
+
+        &:nth-last-child(2) {
+            background: pink;
+        }
+    }
+}

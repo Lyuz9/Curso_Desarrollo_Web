@@ -1,0 +1,29 @@
+body {
+    font-family:sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Arial;
+    font-size: 40px;
+
+    font-style: italic;
+
+    font-weight: normal;
+
+    text-align: center;
+
+    text-decoration: underline;
+
+    text-decoration: underline red 4px dotted;
+}
+
+p {
+    text-align: justify;
+    text-transform: uppercase;
+
+    color: #9030c7;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-shadow: 5px 5px 5px rgba(0,0,0, .2);
+}

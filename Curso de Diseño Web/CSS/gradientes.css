@@ -1,0 +1,22 @@
+.caja {
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    margin: 10px;
+}
+
+.gradiente-linear {
+    background: linear-gradient(30deg, blue, black);
+}
+
+.gradiente-radial {
+    background: radial-gradient(lime, black);
+}
+
+.gradiente-conico {
+    background: conic-gradient(yellow, orangered);
+}
+
+.gradiente-imagen {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url('./imagenes/bosque.png');
+}

@@ -1,0 +1,12 @@
+.caja {
+    width: 400px;
+    margin: 100px 0;
+    background-color: #ccc;
+
+    img {
+        width: 100%;
+        vertical-align: top;
+        border-radius: 15px;
+        transform: scaleX(2);
+    }
+}

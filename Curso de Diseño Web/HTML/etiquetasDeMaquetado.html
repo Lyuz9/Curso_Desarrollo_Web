@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas de maquetado</title>
+</head>
+
+<body>
+
+    <!-- EJEMPLO SIN SEMANTICA -->
+
+    <div class="header">
+        <div class="nav">
+            <a href="#">Menú 1</a>
+            <a href="#">Menú 2</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="articulo">
+            <h3 class="titulo">Este es el titulo de mi post</h3>
+            <p class="fecha">07 de septiembre de 1995</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ratione?</p>
+            <img src="imagenes/paisaje1.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <p>texto de sidebar</p>
+    </div>
+
+    <div class="footer">
+        <p>texto del footer</p>
+    </div>
+
+    <!-- EJEMPLO CON SEMANTICA -->
+
+    <header class="header">
+        <div class="nav">
+            <a href="#">Menú 1</a>
+            <a href="#">Menú 2</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <article class="articulo">
+            <h1 class="titulo">Este es el titulo de mi post</h1>
+            <time datetime="1995-09-07" class="fecha">07 de septiembre de 1995</time>
+            <p>Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit.</mark> Praesentium, ratione?</p>
+            <figure>
+                <figcaption>
+                    <img src="imagenes/paisaje1.jpg" alt="">
+                    Montaña Nevada
+                </figcaption>
+            </figure>
+        </article>
+
+        <section>
+            <h4>Información adicional</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+    </main>
+
+    <aside class="sidebar">
+        <p>texto de sidebar</p>
+    </aside>
+
+    <footer class="footer">
+        <p>texto del footer</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+body {
+    background-color: #000000ea;
+}
+
+@font-face {
+    font-family: Rubik-black;
+    src: url("./fuentes/Rubik-Black.ttf")format('truetype');
+}
+
+.contenedor {
+    width: 1500px;
+    height: auto;
+    margin: 50px auto;
+
+    .titulo {
+        font-family: "Rubik-black";
+        color: #f2f2f2;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .fila-1, .fila-2 {
+        margin: auto;
+        margin-bottom: 5px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+
+        div {
+            width: 300px;
+            height: 280px;
+            margin: 10px;
+            /* border: solid 1px #f2f2f2; */
+            
+            img {
+                width: 300px;
+                height: auto;
+                display: block;
+                filter: grayscale(100%);
+                transition: 0.3s ease all;
+                border: solid 1px transparent;
+                padding: 5px;
+            }
+            &:hover img {
+                filter: grayscale(0%);
+                border: solid 1px #fff;
+            }
+
+            p {
+                color: #5f5a5a;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: small;
+                text-align: center;
+                transition: 0.3s ease all;
+            }
+            &:hover p {
+                color: #f2f2f2;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: small;
+                text-align: center;
+            }
+        }
+    }
+
+    /*
+    .fila-2 {
+        margin: auto;
+        margin-top: 5px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+
+        div {
+            width: 300px;
+            height: 280px;
+            margin: 10px;
+            /* border: solid 1px #f2f2f2; */
+            /*
+            img {
+                width: 300px;
+                height: auto;
+                display: block;
+                filter: grayscale(100%);
+                transition: 0.3s ease all;
+                border: solid 1px transparent;
+                padding: 5px;
+            }
+            &:hover img {
+                filter: grayscale(0%);
+                border: solid 1px #fff;
+            }
+
+            p {
+                color: #5f5a5a;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: small;
+                text-align: center;
+                transition: 0.3s ease all;
+            }
+            &:hover p {
+                color: #f2f2f2;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: small;
+                text-align: center;
+            }
+        }
+    }
+    */
+}

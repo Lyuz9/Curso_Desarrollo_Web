@@ -1,0 +1,30 @@
+.color{
+    /* Nombre */
+    /*  */
+    color: darkblue;
+
+    /* Valor hexadecimal 6 */
+    /* color: #000000; */
+    
+
+    /* Valor hexadecimal 3 */
+    /* color: #000; */
+    
+    /* 8 digitos (transparencia) */
+    /* color: #d719199a; */
+    
+
+    /* Valores RGB */
+    /* color: rgb(240, 6, 6); */
+    
+
+    /* Transparencia RGB */
+    /* color: rgba(183, 14, 216, 0.603); */
+    
+
+    /* Color HLS */
+    /* color: hsl(0, 94%, 46%); */
+
+    border: 5px solid currentColor;
+   
+}

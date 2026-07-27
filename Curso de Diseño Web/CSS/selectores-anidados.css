@@ -1,0 +1,55 @@
+/*  Ejemplo sin anidar:  */
+/*
+.contenedor .articulo {
+    background: lightgrey;
+}
+
+.contenedor .articulo h2 {
+    font-size: 40px;
+}
+
+.contenedor .articulo p {
+    font-size: 20px;
+}
+
+.contenedor .articulo a {
+    color: red;
+    font-size: 20px;
+}
+
+.contenedor .articulo.destacado {
+    background: lightblue;
+}
+
+.contenedor .articulo.destacado h2 {
+    color: blue;
+}
+*/
+
+/*  Ejemplo con anidacion:  */
+.contenedor {
+    .articulo {
+        background: lightgray;
+
+        &.destacado {
+            background: lightblue;
+
+            h2 {
+                color: blue;
+            }
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a {
+            color: red;
+            font-size: 20px;
+        }
+    }
+}

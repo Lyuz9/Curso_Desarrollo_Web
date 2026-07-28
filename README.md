@@ -1,11 +1,17 @@
-Udemy Diseño Web Profesional: Curso Completo, Práctico y desde 0
+Udemy Diseño Web Profesional: Curso completo, práctico y desde 0
 
 Temas vistos:
 * Figma
 * HTML
 * CSS
 * Flexbox
-* CSS grid
+* CSS Grid
 
-Proyectos del curso:
+Temas a repasar más a fondo:
+* CSS
+* Flexbox
+* CSS Grid
+
+Proyectos finalizados del curso:
 * Página de enlaces personales
+

@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', serif;
+	background-image: url('./../img/paisaje.png');
+	/* background-image: url('https://images.unsplash.com/photo-1693761935581-1f6a0ab16590?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+	background-size: cover;
+	background-position: top;
+
+	&::after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.4);
+		position: absolute;
+		top: 0;
+		left: 0;
+		backdrop-filter: blur(50px);
+		z-index: 0;
+	}
+}
+
+.contenedor {
+	position: relative;
+	z-index: 1;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	padding: 40px 0;
+
+	.bio {
+		text-align: center;
+		margin-bottom: 40px;
+
+		.foto {
+			width: 150px;
+			height: auto;
+			aspect-ratio: 1/1;
+			object-fit: cover;
+			border-radius: 100px;
+			margin-bottom: 20px;
+		}
+
+		.nombre {
+			margin-bottom: 5px;
+			font-size: 32px;
+		}
+
+		.descripcion {
+			font-size: 18px;
+		}
+	}
+
+	.links {
+		.link {
+			color: black;
+			border: 3px solid black;
+			border-radius: 10px;
+			text-align: center;
+			display: block;
+			margin-bottom: 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 20px;
+			font-weight: 700;
+			transition: 0.2s ease all;
+			box-shadow: 1px 1px 0px 0px black, 2px 2px 0px 0px black, 3px 3px 0px 0px black, 4px 4px 0px 0px black,
+				5px 5px 0px 0px black;
+			transform: translate(-5px, -5px);
+
+			&:hover {
+				color: #fff;
+				box-shadow: 0px 0px 0px 0px;
+				transform: translate(0px, 0px);
+			}
+
+			&.sitio-web:hover {
+				background: orange;
+				color: #000;
+			}
+
+			&.youtube:hover {
+				background: #ff0000;
+			}
+
+			&.x:hover {
+				background: #14171a;
+			}
+			&.facebook:hover {
+				background: #1877f2;
+			}
+			&.instagram:hover {
+				background: #c13584;
+			}
+		}
+	}
+}

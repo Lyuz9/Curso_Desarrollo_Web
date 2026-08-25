@@ -9,8 +9,8 @@ body {
     width: 90%;
     margin: 40px 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
 
     h3 {
         font-size: 32px;
@@ -37,7 +37,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:1000px) {
     body {
         background-color: #111111;
         color: #fff;
@@ -52,7 +52,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:500px) {
     .grid {
         grid-template-columns: 1fr;
     }

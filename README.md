@@ -14,7 +14,9 @@ Temas a repasar más a fondo:
 * CSS Grid
 * Layout sencillo con Flexbox y CSS Grid
 * Responsive Desing
+* JavaScript
 
 Proyectos finalizados del curso:
 * Página de enlaces personales
+* Página de Startup
 

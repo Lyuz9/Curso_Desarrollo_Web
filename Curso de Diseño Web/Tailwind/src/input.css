@@ -10,4 +10,21 @@
     --color-detalles-100: #8447ff;
     --color-detalles-200: #4b00e0;
 
+    --background-image-comida: url('./../src/imagenes/comida.svg');
+    --background-image-hero: url('https://images.unsplash.com/photo-1666923345950-ec4e7e0d1620?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+    --background-image-hero2: url('https://images.unsplash.com/photo-1792935090436-76a79d008fa5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+
+    --animate-boton: latido 1s ease-in-out infinite;
+
+    @keyframes latido {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
 }

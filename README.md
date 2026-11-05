@@ -6,6 +6,12 @@ Temas vistos:
 * CSS
 * Flexbox
 * CSS Grid
+* Layout con flexbox y CSS grid
+* Responsive Desing
+* VITE
+* Javascript
+* Introducción a React
+* Tailwind
 
 Temas a repasar más a fondo:
 * Figma
@@ -15,8 +21,10 @@ Temas a repasar más a fondo:
 * Layout sencillo con Flexbox y CSS Grid
 * Responsive Desing
 * JavaScript
+* Tailwind
 
 Proyectos finalizados del curso:
 * Página de enlaces personales
 * Página de Startup
+* Portafolio de trabajos en React
 
